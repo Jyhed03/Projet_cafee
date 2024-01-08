@@ -1,0 +1,195 @@
+body{
+    height: auto;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans", sans-serif;
+
+}
+.section {
+    max-width: 1000px;
+    display: block;
+    margin: auto;}
+
+.navigateur {
+    background: #333;
+    overflow: auto;
+    line-height: 1.7em;
+  }
+  
+  .navigateur nav h1 {
+    float: left;
+    padding: 20px;
+    margin-bottom: 0px;
+  }
+  .navigateur nav h1 a {
+    color: white;
+  }
+  
+  .navigateur nav ul {
+    list-style: none;
+    float: right;
+  }
+  
+  .navigateur nav ul li {
+    float: left;
+  }
+  .navigateur nav ul li a {
+    color: white;
+    padding: 20px;
+    display: block;
+  }
+  .navigateur nav ul li a:hover {
+    background: #444;
+  }
+  .active {
+    background: #444;
+  }
+
+
+
+nav{
+    /*display: flex;
+    justify-content: right;*/
+    align-content: space-between;
+    float: right;
+  
+    
+}
+nav,ul,li{
+    list-style: none;
+    display: inline;
+}
+#logo{
+   /* display: flex;
+    justify-content: left;*/
+    float:left ;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    
+}
+
+
+
+section.parts{
+    height: 400px;
+    background-image: url("../images/cafe1.jpg");
+    text-align: center;
+    padding: 70px 0px;
+    color: #fefefe;
+
+
+    font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 1.9em;
+    
+}
+#part1 h2{
+    font-size: 50px;
+    justify-content:baseline;
+}
+#part2{
+    max-width: 600px;
+  padding-top: 40px;
+  color: white;
+  display: block;
+  margin: auto;
+  }
+
+#separator{
+    width: 100px;
+    height: 10px;
+    margin: 20px auto;
+    background: rgb(17, 17, 17);
+}
+
+#button {
+    display: inline-block;
+  padding: 15px 25px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 14px;
+  border: 0;
+  cursor: pointer;
+  background:#fefefe;
+
+  }
+  
+#button:hover {
+    background: #222;
+    color: white;
+  }
+  #button2 {
+    display: inline-block;
+  padding: 15px 25px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 14px;
+  border: 1;
+  border: black;
+  cursor: pointer;
+  background:#222;
+
+  }
+  
+#button2:hover {
+    background: #fefefe;
+    color: white;
+  }
+
+ main{
+    overflow: auto;
+  padding: 100px 0;
+  display: flex;
+  text-align: center;
+ }
+#box2{
+float: left;
+
+}
+figure{
+    height: 700px;
+    width: auto;
+    background: url("../images/cafe3.jpg") center center/cover;
+}
+
+section.reservation{
+    text-align: center;
+    
+    height: 300px;
+    padding: 100px 0px;
+
+}
+container.where{
+height: auto;
+width: auto;
+
+}
+aside{
+    display: flex;
+    text-align: center;
+    margin: 65px;
+    padding: 50px;
+}
+
+footer{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #333333;
+    color: #fefefe;
+    height: 40px;
+    padding: 20px;
+}
+
+
+section.where{
+
+    display: inline;
+}
+
+form{
+    margin: 0px;
+    padding: 180px 180px 180px 180px;
+}
